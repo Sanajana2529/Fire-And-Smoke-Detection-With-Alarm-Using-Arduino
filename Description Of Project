@@ -1,0 +1,9 @@
+The system uses a microcontroller, typically an Arduino Uno, as its brain. It relies on sensors like the MQ-2 Gas/Smoke Sensor to monitor the surrounding air for harmful gas leaks or the presence of smoke. For fire (flame) detection, an optional Flame Sensor might also be included, which detects the infrared light emitted by a fire.
+​
+Processing and Alert 🚨 :
+
+​The sensors provide continuous input to the Arduino, usually as analog readings.
+​The Arduino compares these readings against a pre-set danger threshold defined in its code.
+​If a reading exceeds this threshold (indicating high smoke/gas concentration or a flame), the Arduino immediately activates an alarm.
+​The alarm output is typically a loud noise from a Buzzer and a visual warning from a Red LED or an accompanying message on an LCD display.
+​This system acts as a first line of defense, offering prompt alerts to save lives and property by detecting hazards faster than human senses.
